@@ -1,0 +1,12 @@
+
+<div class="homepage">
+  <ul class="imgul">
+    <li class="imgli" *ngFor="let data of galleryData;let i=index"><img  (click)="onPreviewImage(i)" [src]="data.imagesrc"></li>
+  
+     
+  <div class="popup-image" *ngIf="previewImage">
+    <a class="close"  (click)="onClosePreview()">&times;</a>
+    <img  [src]="currentLightboxImage.imagesrc">
+</div>
+
+     

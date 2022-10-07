@@ -1,0 +1,25 @@
+.popup-image
+{
+    position:fixed;
+    top:0; left:0;
+    background-color:rgba(0,0,0,.9);
+    height:100%;
+    width:100%;
+    z-index:100;
+}
+.popup-image span{
+    position:absolute;
+    top:0; right:10px;
+    font-size: 40px;
+    color: #fff;
+    cursor:pointer;
+
+}
+.content img{
+    position:absolute;
+    top:10%; left:25%;
+    border:5px solid #fff;
+    border-radius:5px;
+    width:750px;
+    object-fit:cover;
+}
